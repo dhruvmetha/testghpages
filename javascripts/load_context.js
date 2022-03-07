@@ -6,7 +6,7 @@ import { loadModel } from "/testghpages/javascripts/load_model.js"
  */
 export function loadFirstContext(data_root, engine_data) {
     // Init engine_data
-    engine_data.data_root = "testghpages/test_data/" + data_root;
+    engine_data.data_root = "test_data/" + data_root;
     engine_data.data_dir = "";
     engine_data.controlls = {};
     engine_data.vis_controls = {};
