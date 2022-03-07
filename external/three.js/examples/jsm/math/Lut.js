@@ -1,7 +1,7 @@
 import {
 	Color,
 	MathUtils
-} from '/external/three.js/build/three.module.js';
+} from '/testghpages/external/three.js/build/three.module.js';
 
 class Lut {
 

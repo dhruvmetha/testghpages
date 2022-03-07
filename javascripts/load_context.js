@@ -1,12 +1,12 @@
-import { animate } from "/javascripts/basic_canvas.js";
-import { loadModel } from "/javascripts/load_model.js"
+import { animate } from "/testghpages/javascripts/basic_canvas.js";
+import { loadModel } from "/testghpages/javascripts/load_model.js"
 
 /*
  * \brief we should enable lasy-loading and event-based loop
  */
 export function loadFirstContext(data_root, engine_data) {
     // Init engine_data
-    engine_data.data_root = "/test_data/" + data_root;
+    engine_data.data_root = "testghpages/test_data/" + data_root;
     engine_data.data_dir = "";
     engine_data.controlls = {};
     engine_data.vis_controls = {};

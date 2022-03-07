@@ -1,7 +1,7 @@
-import * as THREE from "/external/three.js/build/three.module.js";
-import { TrackballControls } from "/external/three.js/examples/jsm/controls/TrackballControls.js";
-import { GUI } from '/external/three.js/examples/jsm/libs/lil-gui.module.min.js';
-import { FontLoader } from '/external/three.js/examples/jsm/loaders/FontLoader.js';
+import * as THREE from "/testghpages/external/three.js/build/three.module.js";
+import { TrackballControls } from "/testghpages/external/three.js/examples/jsm/controls/TrackballControls.js";
+import { GUI } from '/testghpages/external/three.js/examples/jsm/libs/lil-gui.module.min.js';
+import { FontLoader } from '/testghpages/external/three.js/examples/jsm/loaders/FontLoader.js';
 
 export function createBasicCanvas(container_id, gui_enable=false) {
     const engine_data = {
@@ -60,7 +60,7 @@ export function createBasicCanvas(container_id, gui_enable=false) {
 
     // Load font to engine_data
     const loader = new FontLoader();
-    loader.load("/external/three.js/examples/fonts/helvetiker_regular.typeface.json",
+    loader.load("/testghpages/external/three.js/examples/fonts/helvetiker_regular.typeface.json",
         (response) => {
             engine_data.font = response;
         });
