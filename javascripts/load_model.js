@@ -1,4 +1,4 @@
-import * as config_json from '/config.json'
+import * as config_json from 'config.json'
 import * as THREE from `${config_json.source_threejs}/external/three.js/build/three.module.js`;
 import { OBJLoader } from `${config_json.source_threejs}/external/three.js/examples/jsm/loaders/OBJLoader.js`;
 import { PCDLoader } from `${config_json.source_threejs}/external/three.js/examples/jsm/loaders/PCDLoader.js`;

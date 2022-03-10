@@ -1,4 +1,4 @@
-import * as config_json from '/config.json'
+import * as config_json from 'config.json'
 import * as THREE from `${config_json.source_threejs}/external/three.js/build/three.module.js`;
 import { TrackballControls } from `${config_json.source_threejs}/external/three.js/examples/jsm/controls/TrackballControls.js`;
 import { GUI } from `${config_json.source_threejs}/external/three.js/examples/jsm/libs/lil-gui.module.min.js`;

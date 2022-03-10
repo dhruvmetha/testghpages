@@ -1,4 +1,4 @@
-import * as config_json from '/config.json'
+import * as config_json from 'config.json'
 import { loadContext } from `${config_json.repository_name}/javascripts/load_context.js`
 
 export function onKeydown(event, engine_data, global_keyevent) {

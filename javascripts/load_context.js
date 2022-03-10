@@ -1,4 +1,4 @@
-import * as config_json from '/config.json'
+import * as config_json from 'config.json'
 import { animate } from `${config_json.repository_name}/javascripts/basic_canvas.js`;
 import { loadModel } from `${config_json.repository_name}/javascripts/load_model.js`
 
