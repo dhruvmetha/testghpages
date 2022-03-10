@@ -5,9 +5,9 @@ import { loadModel } from "/testghpages/javascripts/load_model.js"
 /*
  * \brief we should enable lasy-loading and event-based loop
  */
-export function loadFirstContext(data_root, dir_list, engine_data) {
+export function loadFirstContext(root_folder, data_root, dir_list, engine_data) {
     // Init engine_data
-    engine_data.data_root = "/test_data/" + data_root;
+    engine_data.data_root = root_folder + "/test_data/" + data_root;
     engine_data.data_dir = "";
     engine_data.controlls = {};
     engine_data.vis_controls = {};
