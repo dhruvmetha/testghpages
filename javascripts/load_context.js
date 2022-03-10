@@ -1,6 +1,6 @@
-import * as config_json from 'config.json'
-import { animate } from `${config_json.repository_name}/javascripts/basic_canvas.js`;
-import { loadModel } from `${config_json.repository_name}/javascripts/load_model.js`
+// import * as config_json from 'config.json'
+import { animate } from `/testghpages/javascripts/basic_canvas.js`;
+import { loadModel } from `/testghpages/javascripts/load_model.js`
 
 /*
  * \brief we should enable lasy-loading and event-based loop
