@@ -1,12 +1,12 @@
-import { animate } from "/testghpages/javascripts/basic_canvas.js";
-import { loadModel } from "/testghpages/javascripts/load_model.js"
+import { animate } from "/javascripts/basic_canvas.js";
+import { loadModel } from "/javascripts/load_model.js"
 
 /*
  * \brief we should enable lasy-loading and event-based loop
  */
-export function loadFirstContext(data_root, engine_data) {
+export function loadFirstContext(data_root, dir_list, engine_data) {
     // Init engine_data
-    engine_data.data_root = "test_data/" + data_root;
+    engine_data.data_root = "/test_data/" + data_root;
     engine_data.data_dir = "";
     engine_data.controlls = {};
     engine_data.vis_controls = {};
@@ -21,14 +21,15 @@ export function loadFirstContext(data_root, engine_data) {
     engine_data.locker = { "context": true };
     // Async Get
     // $.post("/dir_list", { data_root: engine_data.data_root }, function (data, status) {
-    //     engine_data.dir_list = data.dir_list;
+    //    engine_data.dir_list = data.dir_list;
     //     engine_data.p = 0;
     //     engine_data.data_dir = engine_data.data_root + "/" + engine_data.dir_list[0];
     //     let file_path = engine_data.data_dir + "/context.json";  // Parse first one
     //     parseJson(file_path, engine_data);
-    // })
+    // }) 
 
-    let dir_list = ['frame_000001']
+    // let dir_list = ['frame_000001']
+    console.log(dir_list)
     engine_data.dir_list = dir_list;
     engine_data.p = 0;
     engine_data.data_dir = engine_data.data_root + "/" + engine_data.dir_list[0];
