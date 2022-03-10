@@ -1,4 +1,5 @@
-import * as THREE from "./external/three.js/build/three.module.js";
+import config_json from '/config.json'
+import * as THREE from `${config_json.repository_name}/external/three.js/build/three.module.js`;
 import { TrackballControls } from "./external/three.js/examples/jsm/controls/TrackballControls.js";
 import { GUI } from './external/three.js/examples/jsm/libs/lil-gui.module.min.js';
 import { FontLoader } from './external/three.js/examples/jsm/loaders/FontLoader.js';
