@@ -1,9 +1,8 @@
-import * as config_json from 'config.json'
-import * as THREE from `${config_json.source_threejs}/external/three.js/build/three.module.js`;
-import { OBJLoader } from `${config_json.source_threejs}/external/three.js/examples/jsm/loaders/OBJLoader.js`;
-import { PCDLoader } from `${config_json.source_threejs}/external/three.js/examples/jsm/loaders/PCDLoader.js`;
-import { Lut } from `${config_json.source_threejs}/external/three.js/examples/jsm/math/Lut.js`;
-import { TextGeometry } from `${config_json.source_threejs}/external/three.js/examples/jsm/geometries/TextGeometry.js`;
+import * as THREE from "/testghpages/external/three.js/build/three.module.js";
+import { OBJLoader } from "/testghpages/external/three.js/examples/jsm/loaders/OBJLoader.js";
+import { PCDLoader } from "/testghpages/external/three.js/examples/jsm/loaders/PCDLoader.js";
+import { Lut } from "/testghpages/external/three.js/examples/jsm/math/Lut.js";
+import { TextGeometry } from "/testghpages/external/three.js/examples/jsm/geometries/TextGeometry.js";
 
 // Model loading
 export function loadModel(name, data, engine_data) {
